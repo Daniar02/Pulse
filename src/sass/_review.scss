@@ -1,0 +1,30 @@
+.review {
+    padding-bottom: 50px;
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    &__img {
+        margin-right: 30px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        color: $block-color;
+        margin: 0;
+    }
+    &__mini {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: $block-color;
+    }
+}

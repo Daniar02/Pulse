@@ -1,0 +1,21 @@
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import './mixins';
+@import './promo';
+@import './header.scss';
+@import './buttons';
+@import './beneffits';
+@import './titles';
+@import './consultation';
+@import './forms';
+@import './carousel';
+@import './catalog';
+@import './review';
+@import './footer';
+@import './modal';
+@import './pageup';
+@import './animations';

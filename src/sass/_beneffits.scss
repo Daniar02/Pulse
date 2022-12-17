@@ -1,0 +1,37 @@
+.beneffits {
+    padding: 65px 0 33px 0;
+    background: #F6F6F6;
+    &__box  {
+        display: flex;
+        
+    }
+    &__item {
+        text-align: center;
+        padding: 32px;
+    }
+    &__block {
+        margin-top: 35px;
+        color: $block-color;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: $block-color;
+        a {
+            color: #FF0000;
+        }
+    } 
+    &__icon_animated {
+        animation-name: heartbeat;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }             
+}
